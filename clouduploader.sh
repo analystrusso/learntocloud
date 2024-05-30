@@ -4,7 +4,7 @@
 bucket_name="clouduploaderbucket"
 
 # set the sourcedirectory
-sourcedir="C:\Users\adamj\Documents\LearntoCloud\learntocloud\sourcedir"
+sourcedir="C:\Users\user\Documents\LearntoCloud\learntocloud\sourcedir"
 
 # copy files to s3 bucket
 aws s3 cp "$sourcedir" "s3://$bucket_name/" --recursive
